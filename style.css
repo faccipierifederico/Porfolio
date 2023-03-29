@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: teal;
+    /* background: linear-gradient(0.25turn, #3f87a6, #022066, #000000); */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a{
+    display: flex;
+    justify-content: space-evenly;
+    background: none;
+    height:75%;
+}
+
+nav a img{
+    background: none;
+    height: 100%;
+}
+
+nav a:hover{
+    border: 1px solid blue;
+    transition: 1s;
+}
+
+.div-header{
+    color: rgb(104, 177, 152);
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.div-header h1{
+    width: 100%;
+    padding-left: 25%;
+    font-family: 'Philosopher', cursive;
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.div-header h3{
+    width: 100%;
+    padding-left: 25%;
+    font-family: 'Philosopher', cursive;
+    font-size: 1.5em;
+}
+
+main{
+    width: 100vw;
+}
+
+.div-main{
+    color: blanchedalmond;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.div-main h3{
+    width: 90vw;
+    padding-left: 25%;
+    font-family: 'Philosopher', cursive;
+    font-size: 1.5em;
+}
+
+.div-main p{
+    width: 90vw;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: 'Philosopher', cursive;
+    font-size: 1em;
+}
