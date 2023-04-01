@@ -1,6 +1,6 @@
 :root{
     --color1: #000000;
-    --color2: #14213D;
+    --color2: #0b1937;
     --color3: #FCA311;
     --color4: #fdf0d5;
     --color5: #E5E5E5;
@@ -68,9 +68,14 @@ header{
 
 .about-me{
     width: 100%;
+    background-color: var(--color2);
     /* height: 100vh; */
     display: flex;
     flex-direction: column;
+}
+
+.about-me .skills{
+    background-color: var(--color2);
 }
 
 .div-main{
@@ -83,6 +88,15 @@ header{
     color: var(--color6);
     padding: 5%;
     padding-bottom: 0;
+}
+
+.skills h3{
+    font-family: 'Unbounded';
+    font-size: 25px;
+    color: var(--color6);
+    padding: 5%;
+    padding-bottom: 0;
+    background-color: var(--color2)
 }
 
 .underline-h3{
@@ -134,12 +148,30 @@ ul{
     gap: 10px;
     padding: 10%;
     list-style-type: none;
+    background-color: var(--color2);
+}
+
+li{
+    background-color: var(--color2);
 }
 
 .skills-p{
     margin-bottom: 20px;
+    background-color: var(--color2);
 }
 
 .final-p{
     margin-bottom: -10px;
+    background-color: var(--color2);
+}
+
+.skills h6, .skills p{
+    background-color: var(--color2);
+}
+
+.wave1{
+    background-image: url(./assets/img/wave.svg);
+    height: 50px;
+    width: 100%;
+    /* background-color: white; */
 }
