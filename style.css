@@ -99,6 +99,14 @@ header{
     background-color: var(--color2)
 }
 
+.skills2 h3{
+    font-family: 'Unbounded';
+    font-size: 25px;
+    color: var(--color6);
+    padding: 5%;
+    padding-bottom: 0;
+}
+
 .underline-h3{
     width: 50px;
     border-top: 3px solid var(--color3);
@@ -160,7 +168,16 @@ li{
     background-color: var(--color2);
 }
 
+.skills-p2{
+    margin-bottom: 20px;
+}
+
 .final-p{
+    margin-bottom: -10px;
+    background-color: var(--color2);
+}
+
+.final-p2{
     margin-bottom: -10px;
     background-color: var(--color2);
 }
@@ -171,6 +188,13 @@ li{
 
 .wave1{
     background-image: url(./assets/img/wave.svg);
+    height: 50px;
+    width: 100%;
+}
+
+.wave2{
+    background-color: #0b1937;
+    background-image: url(./assets/img/wave2.svg);
     height: 50px;
     width: 100%;
     /* background-color: white; */
