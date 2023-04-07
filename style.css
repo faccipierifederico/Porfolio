@@ -119,7 +119,7 @@ header{
     line-height: 25px;
 }
 
-.div-main h4{
+.div-main h4, .h4-skills2{
     font-size: 20px;
     font-family: 'Unbounded';
     color: var(--color6);
@@ -199,6 +199,39 @@ li{
     width: 100%;
     /* background-color: white; */
 }
+
+/* ------------ WORK I'VE DONE ------------ */
+
+.img1-skills2{
+    padding: 2% 5%;
+    width: 100%;
+    /* border-radius: 25px; */
+    cursor: pointer;
+}
+
+/* .tj-skills2{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+} */
+
+/* ESTO IRÍA A MEDIA QUERIES */
+
+/* .tj-skills2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.img1-skills2{
+    width: 35vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.h4-skills2{
+    margin-bottom: 15px;
+} */
 
 
 /* ---------------GALERÍA DE IMÁGENES MOBILE FIRST----------------------- */
@@ -299,6 +332,8 @@ li{
 .figure-gallery-10{
     grid-area: img10;
 }
+
+/* ----------- MEDIA QUERIES --------------- */
 
 @media (min-width:720px){
     .gallery{
