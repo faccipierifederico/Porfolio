@@ -318,6 +318,11 @@ li{
     width: 100vw;
 }
 
+.location{
+    padding: 2% 5%;
+    width: 100%;
+}
+
 .contact-form{
     width: 100%;
     padding: 2% 5%;
