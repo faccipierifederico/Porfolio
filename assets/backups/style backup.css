@@ -26,19 +26,10 @@ header{
 
 /* ABOUT ME HEADER */
 
-.about-me-header{
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    flex-direction: column;
-}
-
-/* MENU RESPONSIVE */
-
 .nav{
-    background: #293241;
+    background-color: var(--color2);
     height: 80px;
-    color: #fff;
+    color: var(--color5);
 }
 
 .nav-container{
@@ -65,20 +56,17 @@ header{
 }
 
 .nav-item{
-    color: #000;
+    color: white;
     text-decoration: none;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
     background-color: inherit;
-}
-
-.nav-item-item{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 5px;
 }
 
-.nav-item-item, .nav-item img{
+.nav-item img{
     background-color: inherit;
 }
 
@@ -94,6 +82,7 @@ header{
 }
 
 .nav-item:hover{
+    border: 1px solid white;
     --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
@@ -101,9 +90,44 @@ header{
     display: none;
 }
 
-/* FIN MENU RESPONSIVE */
+
+.about-me-header{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+}
 
 /* FIN ABOUT ME HEADER */
+
+/* .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1% 2%;
+    height: 50px;
+} */
+
+/* .nav-header{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+} */
+
+/* .div-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+/* .div-header h4, .div-header h6{
+    color: var(--color3);
+} */
+
+/* .div-header{
+    text-align: center;
+} */
 
 .header-title{
     width: 100%;
@@ -116,19 +140,6 @@ header{
 
 .header-title h1, .header-title h3{
     background: none;
-}
-
-.about-me-gif{
-    padding: 2% 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.about-me-gif img{
-    padding: 5% 0 2%;
-    width: 70%;
-    max-width: 500px;
 }
 
 main .about-me-gif{
@@ -152,6 +163,10 @@ main .about-me-gif{
 
 .webs{
     background-color: var(--color2);
+}
+
+.div-main{
+    padding-bottom: 10%;
 }
 
 .div-main h3{
@@ -575,51 +590,20 @@ input::placeholder, textarea::placeholder{
 
 /* ----------- MEDIA QUERIES --------------- */
 
-@media (max-width:720px){
-    .nav-label{
-        display: block;
-        cursor: pointer;
-        background-color: inherit;
-    }
-
-    .nav-menu{
-        position: fixed;
-        padding: 25% 0;
-        top: 80px;
-        bottom: 0;
-        background-color: var(--color1);
-        width: 100%;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        clip-path: circle(0 at center);
-        transition: clip-path 1s;
-    }
-
-    .nav-item, .nav-item-item, .nav-item img{
-        background-color: inherit;
-    }
-
-    .nav-item-item{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .nav-input:checked + .nav-menu{
-        background-color: var(--color1);
-        clip-path: circle(100% at center);
-    }
-
-    .nav-img{
-        background-color: inherit;
-    }
-}
-
 @media (min-width:720px){
+    .about-me-gif{
+        padding: 0 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about-me-gif img{
+        padding-right: 1%;
+        width: 50%;
+        height: auto;
+    }
+
     .div-main{
         padding-bottom: 0;
     }
@@ -652,19 +636,6 @@ input::placeholder, textarea::placeholder{
 @media (min-width: 1000px){
     .about-me{
         height: 60vh;
-    }
-
-    .about-me-gif{
-        padding: 0 3%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .about-me-gif img{
-        padding-right: 1%;
-        width: 50%;
-        height: auto;
     }
 
     .about-me-skills{
@@ -744,6 +715,10 @@ input::placeholder, textarea::placeholder{
     iframe{
         max-height: 70vh;
     }
+
+
+
+
 
     .gallery{
         display: grid;

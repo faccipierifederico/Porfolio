@@ -12,26 +12,38 @@
 </head>
 <body>
     <header>
-        <div class="header">
-            <div class="div-header">
-                <h4>FF</h4>
-                <h6>Web designer</h6>
+        <nav class="nav">
+            <div class="nav-container">
+                <h4 class="nav-logo">FF</h4>
+                <label for="menu" class="nav-label">
+                    <img src="./assets/img/menu.svg" alt="Menu" class="nav-img">
+                </label>
+                <input type="checkbox" id="menu" class="nav-input">
+                
+                <div class="nav-menu">
+                    <a href="./index.html" class="nav-item">
+                        <div class="nav-item-item active">
+                        <img src="./assets/img/home.svg">Home
+                        </div>
+                    </a>
+                    <a href="./about-me.html" class="nav-item">
+                        <div class="nav-item-item">
+                        <img src="./assets/img/info.svg">About
+                        </div>
+                    </a>
+                    <a href="./photos.html" class="nav-item">
+                        <div class="nav-item-item">
+                        <img src="./assets/img/camera.svg">Photos
+                        </div>
+                    </a>
+                    <a href="./contact.html" class="nav-item">
+                        <div class="nav-item-item">
+                        <img src="./assets/img/contact.svg">Contact
+                        </div>
+                    </a>
+                </div>
             </div>
-            <nav class="nav-header">
-                <a class="nav-svg" href="#">
-                    <img src="./assets/img/home.svg">
-                </a>
-                <a class="nav-svg" href="./about-me.html">
-                    <img src="./assets/img/info.svg">
-                </a>
-                <a class="nav-svg" href="./photos.html">
-                    <img src="./assets/img/camera.svg">
-                </a>
-                <a class="nav-svg" href="#">
-                    <img src="./assets/img/contact.svg">
-                </a>
-            </nav>
-        </div>
+        </nav>
         <div class="header-title">
             <h1>Federico Faccipieri</h1>
             <h3>Full Stack Developer</h3>
@@ -56,7 +68,7 @@
         </div>
         <div class="wave1"></div>
 
-        <div class="about-me">
+        <div class="about-me about-me-skills">
             <div class="div-main skills">
                 <h3>Work I've done</h3>
                 <div class="underline-h3"></div>
@@ -80,10 +92,10 @@
                     </figure>
                 </section>
             </div>
-            <div class="wave2"></div>
         </div>
+        <div class="wave2"></div>
 
-        <div class="div-contact">
+        <div class="about-me div-contact">
             <form class="div-main contact-form">
                 <h3>Stay in touch!</h3>
                 <div class="underline-h3"></div>
