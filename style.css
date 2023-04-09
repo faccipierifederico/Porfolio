@@ -91,6 +91,12 @@ header{
     background-color: inherit;
 }
 
+.active{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--color6)
+}
+
 .nav-item::after{
     content: "";
     display: block;
@@ -145,8 +151,8 @@ h1 span{
 
 .about-me-gif img{
     padding: 5% 0 2%;
-    width: 70%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 550px;
 }
 
 main .about-me-gif{
@@ -164,17 +170,22 @@ main .about-me-gif{
     font-family: 'Unbounded';
     font-size: 25px;
     color: var(--color6);
-    padding: 1% 5%;
+    padding: 1% 1%;
     padding-bottom: 0;
 }
 
-.skills h3{
+.div-main p{
+    padding: 0 1%;
+    line-height: 25px;
+}
+
+/* .skills h3{
     font-family: 'Unbounded';
     font-size: 25px;
     color: var(--color6);
     padding: 2% 5%;
     padding-bottom: 0;
-}
+} */
 
 .skills2 h3{
     font-family: 'Unbounded';
@@ -188,16 +199,11 @@ main .about-me-gif{
     width: 50px;
     border-top: 3px solid var(--color2);
     margin-bottom: 15px;
-    /* margin-left: 5%; */
+    margin-left: 1%;
 }
 
 .underline-h3-form{
     margin-top: -10px;
-}
-
-.div-main p{
-    padding: 0 5%;
-    line-height: 25px;
 }
 
 .div-main h4, .h4-skills2{
@@ -212,7 +218,7 @@ main .about-me-gif{
     font-size: 1em;
     font-family: 'Unbounded';
     color: var(--color6);
-    padding: 5%;
+    /* padding: 5%; */
     padding-bottom: 0;
 }
 
@@ -304,7 +310,7 @@ table {
 }
 
 .gallery-skills{
-    padding: 2% 5% 3%;
+    padding: 2% 0% 3%;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -367,17 +373,23 @@ table {
     transform: 1s;
 }
 
-.img-gallery-skills{
+.img-gallery{
     height: auto;
     width: 100%;
     object-fit: cover;
     border: none;
 }
 
+.img-gallery-skills-new{
+    width:600px !important;
+    height: auto;
+    margin: 0 auto;
+}
+
 /* PROYECTOS IN PROGRESS */
 
 .gallery-skills-doing{
-    padding: 2% 5% 3%;
+    padding: 2% 0% 3%;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -532,7 +544,7 @@ input::placeholder, textarea::placeholder{
     /* empieza proyectos */
 
     .gallery-skills{
-        padding: 2% 5% 3%;
+        padding: 2% 0% 3%;
         text-align: center;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -598,8 +610,8 @@ input::placeholder, textarea::placeholder{
 
     .about-me-gif img{
         padding-right: 1%;
-        width: 50%;
         height: auto;
+        max-width: none;
     }
 
     .about-me-skills{
@@ -629,7 +641,7 @@ input::placeholder, textarea::placeholder{
     }
 
     .gallery-skills-doing{
-        padding: 2% 5% 3%;
+        padding: 2% 0% 3%;
         text-align: center;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
