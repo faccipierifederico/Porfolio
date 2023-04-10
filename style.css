@@ -255,7 +255,7 @@ main .about-me-gif{
 
 .underline-h4{
     width: 50px;
-    border-top: 1px solid var(--color3);    
+    border-top: 1px solid var(--color2);    
     margin-bottom: 15px;
     margin-left: 5%;
 }
@@ -512,6 +512,60 @@ input::placeholder, textarea::placeholder{
     background-color: var(--color2);
 }
 
+
+/* HTMLS PARTICUALRES */
+
+/* ABOUT-ME */
+
+.about-me-html{
+    padding: 5% 4% 0 4%;
+}
+
+.h6-about-me{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.h6-about-me-bottom{
+    margin-top: 75px;
+    padding: 0 !important;
+    margin-bottom: 0;
+}
+
+.underline-h4-about-me{
+    margin-left: 1%;
+}
+
+.strong{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--color6)
+}
+
+.p-bottom{
+    margin: 15px 0 25px;
+}
+
+/* FIN ABOUT-ME */
+
+/* CONTACT-ME */
+
+.body-100vh{
+    height: 100vh;
+}
+
+.div-center{
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+
+/* FIN CONTACT-ME */
+
+/* FIN HTMLS PARTICUALRES */
+
 /* ----------- MEDIA QUERIES --------------- */
 
 @media (max-width:720px){
@@ -622,6 +676,18 @@ input::placeholder, textarea::placeholder{
     iframe{
         min-height: 350px;
     }
+
+    /* HTMLS PARTICUALRES */
+
+    /* CONTACT-ME */
+
+    .div-center{
+        padding: 0% 0;
+    }
+
+    /* FIN CONTACT-ME */
+
+    /* FIN HTMLS PARTICUALRES */
 }
 
 @media (min-width: 1000px){
@@ -721,6 +787,10 @@ input::placeholder, textarea::placeholder{
         gap: 15px;
     }
 
+    .underline-h3{
+        margin-left: 0;
+    }
+
     .underline-h3-form{
         margin: -10px 0 0;
     }
@@ -759,5 +829,35 @@ input::placeholder, textarea::placeholder{
 
     iframe{
         max-height: 70vh;
+        margin-left: 5%;
     }
+
+    /* HTMLS PARTICUALRES */
+
+    /* ABOUT-ME */
+
+    .about-me-html{
+        padding-top: 3%;
+
+    }
+
+    .underline-h4-about-me{
+        margin-left: 0%;
+    }
+
+    .p-bottom{
+        margin-bottom: 15px;
+    }
+
+    /* FIN ABOUT-ME */
+
+    /* CONTACT-ME */
+
+    .div-center{
+        padding: 8% 0;
+    }
+
+    /* FIN CONTACT-ME */
+
+    /* FIN HTMLS PARTICUALRES */
 }

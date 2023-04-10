@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Raleway:wght@100;300;500;700&family=Unbounded:wght@200;700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
-<body>
+<body class="body-100vh">
     <nav class="nav">
         <div class="nav-container">
             <a href="./index.html" class="a-logo"><h4 class="nav-logo">F<sup>3</sup></h4></a>
@@ -49,8 +49,30 @@
         </div>
     </nav>
 
-    <main>
-        <h3 style="color:aliceblue; text-align: center; padding: 15%;">SORRY, WORK IN PROGRESS</h3>
+    <main class="div-center">
+        <div class="about-me div-contact">
+            <form class="div-main contact-form">
+                <h3>Contact me</h3>
+                <div class="underline-h3 underline-h3-form"></div>
+                <p>
+                    Actualmente me encuentro en búsqueda de mi primera experiencia profesional como desarrollador.
+                </p>
+                <div class="contact-form-div">
+                    <label for="nombre-completo"></label>
+                    <input id="nombre-completo" type="text" class="" placeholder="Nombre completo"/>
+                    <label for="email"></label>
+                    <input id="email" type="email" placeholder="Email">
+                    <label for="asunto"></label>
+                    <input id="asunto" type="text" class="" placeholder="Asunto del mensaje"/>
+                    <label for="mensaje"></label>
+                    <textarea id="mensaje" placeholder="Mensaje" type="textarea" rows="3"></textarea>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+            <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4832969.392253738!2d-65.22424763028513!3d-36.22476798202481!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c2cd07f7558a33%3A0x7bda8c2a7b70fd81!2sSanta%20Rosa%2C%20La%20Pampa!5e1!3m2!1ses!2sar!4v1680879052804!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
 </body>
 </html>
