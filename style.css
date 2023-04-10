@@ -51,6 +51,11 @@ header{
     background-color: inherit;
 }
 
+.a-logo{
+    text-decoration: none;
+    background-color: inherit;
+}
+
 .nav-logo, .nav-logo sup{
     font-size: 1.5em;
     font-weight: bold;
@@ -201,6 +206,25 @@ main .about-me-gif{
     margin-bottom: 15px;
     margin-left: 1%;
 }
+
+/* LINKS QUE TE LLEVAN A MIS OTROS HTML */
+
+.link-skills{
+    color: var(--color6);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
+.link-skills:hover{
+    cursor: pointer;
+}
+
+/* FIN LINKS QUE TE LLEVAN A MIS OTROS HTML */
 
 .underline-h3-form{
     margin-top: -10px;
@@ -541,6 +565,14 @@ input::placeholder, textarea::placeholder{
         padding-bottom: 0;
     }
 
+    .link-skills{
+        text-align: end;
+    }
+
+    .link-skills:hover{
+        font-weight: 700;
+    }
+
     /* empieza proyectos */
 
     .gallery-skills{
@@ -597,6 +629,10 @@ input::placeholder, textarea::placeholder{
         padding: 2% 5%;
     }
 
+    .margin-bottom{
+        margin: 0;
+    }
+
     .div-main h3, .div-main h6, .div-main p{
         padding: 0%;
     }
@@ -610,8 +646,18 @@ input::placeholder, textarea::placeholder{
 
     .about-me-gif img{
         padding-right: 1%;
-        height: auto;
         max-width: none;
+    }
+
+    .programming-svg{
+        width: 50% !important;
+        padding: 0 !important;
+        /* max-width: 400px; */
+    }
+
+    .link-skills-2{
+        padding-top: 10%;
+        text-align: start;
     }
 
     .about-me-skills{
